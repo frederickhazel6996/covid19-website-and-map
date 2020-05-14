@@ -1,0 +1,21 @@
+$font-family1: 'Lato',
+sans-serif;
+$font-family2: 'Quicksand',
+sans-serif;
+//Colors
+$background-color: #f0efed;
+$main-color: #000015;
+$secondary-color: #db4859;
+$misc-color: #566179;
+//$tertiary-color: #29142b;
+$tertiary-color: #4e73de;
+body {
+    font-family: $font-family2;
+    margin-top: 90px;
+    /*   background-color: black; */
+}
+
+.world-meter {
+    width: 100%;
+    border: 1px solid red;
+}

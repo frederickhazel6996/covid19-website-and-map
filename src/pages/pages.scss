@@ -1,0 +1,24 @@
+.box {
+    margin-top: 20px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #fefefe;
+    box-shadow: 3px 3px 3px 3px #dedede;
+    border-radius: 10px;
+}
+
+.country-box {
+    margin-top: 20px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #fefefe;
+    box-shadow: 3px 3px 3px 3px #dedede;
+    border-radius: 10px;
+}
+
+.covid-map {
+    @media screen and (max-width: 1000px) {
+        margin-top: 200px;
+        /*   background-color: red; */
+    }
+}
