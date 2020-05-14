@@ -22,3 +22,30 @@
         /*   background-color: red; */
     }
 }
+
+.covid-map2 {
+    /*   margin-top: 300px; */
+    max-height: 89vh;
+    background-color: yellow
+}
+
+.ghana-box {
+    margin-top: 10px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #fefefe;
+    box-shadow: 3px 3px 3px 3px #dedede;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.ghana-page {
+    overflow: hidden;
+}
+
+.covid-head {
+    color: red;
+    text-decoration: underline;
+    font-weight: 600;
+    text-align: center;
+}

@@ -16,8 +16,21 @@ import {
 const geoUrl =
     'https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json';
 
-const colorScale = scaleQuantile()
-    .domain([1, 3000000])
+// const colorScale = scaleQuantile()
+//     .domain([1, 50, 100, 1000, 5000, 100000, 1000000, 3000000])
+//     .range([
+//         '#ffedea',
+//         '#ffcec5',
+//         '#ffad9f',
+//         '#ff8a75',
+//         '#ff5533',
+//         '#e2492d',
+//         '#be3d26',
+//         '#9a311f'
+//     ]);
+
+const colorScale = scaleLinear()
+    .domain([1, 50, 100, 1000, 5000, 100000, 1000000, 3000000])
     .range([
         '#ffedea',
         '#ffcec5',
@@ -72,12 +85,12 @@ const MapChart = ({ setTooltipContent }) => {
         <>
             <ComposableMap
                 projectionConfig={{
-                    rotate: [-10, 0, 0],
+                    rotate: [-1, 0, 0],
                     scale: 170
                 }}
                 data-tip=""
                 width={980}
-                height={500}
+                height={450}
                 style={{
                     width: '100%',
                     height: 'auto'

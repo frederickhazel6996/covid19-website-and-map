@@ -40,7 +40,12 @@ export default function navbar() {
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link text-white" to="/maps">
-                                Map
+                                World Map
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link text-white" to="/ghana">
+                                Ghana Map
                             </Link>
                         </li>
                     </ul>

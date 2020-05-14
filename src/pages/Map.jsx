@@ -11,8 +11,6 @@ import RPT from 'prop-types';
 import './pages.scss';
 const Map = () => {
     const [content, setContent] = useState('');
-    const geoUrl =
-        'https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json';
 
     return (
         <div>
