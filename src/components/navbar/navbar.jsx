@@ -8,7 +8,7 @@ export default function navbar() {
             <Navbar
                 fixed="top"
                 className="navbar navbar-expand-lg navbar-light nav-color p-3">
-                <a className="navbar-brand text-white" href="#">
+                <a className="navbar-brand text-white" href="/maps">
                     Corona-19
                 </a>
                 <button
@@ -23,31 +23,27 @@ export default function navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
-                        <li className="nav-item active">
+                        {/* <li className="nav-item active">
                             <Link className="nav-link text-white" to="/">
                                 Data <span className="sr-only">(current)</span>
                             </Link>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
                             <Link className="nav-link text-white" to="/Wiki">
                                 Wiki
                             </Link>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link text-white" href="#">
-                                About
-                            </a>
-                        </li>
+
                         <li className="nav-item">
                             <Link className="nav-link text-white" to="/maps">
                                 World Map
                             </Link>
                         </li>
-                        <li className="nav-item">
+                        {/*  <li className="nav-item">
                             <Link className="nav-link text-white" to="/ghana">
                                 Ghana Map
                             </Link>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </Navbar>
